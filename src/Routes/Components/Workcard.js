@@ -2,7 +2,7 @@ import "./Workcardstyling.css";
 import React from "react";
 import Workcarddata from "./Workcarddata";
 
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Workcard = (props) => {
   return (

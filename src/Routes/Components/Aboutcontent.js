@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Aboutcontentstyling.css";
-import prof3 from "../assets/profkeyboard.jpg";
-
-import profreact from "../assets/prof3.jpg";
+import react1 from "../assets/react.avif";
+import react2 from "../assets/prg1.jpg";
 
 const Aboutcontent = () => {
   return (
@@ -18,10 +17,10 @@ const Aboutcontent = () => {
       <div className="right">
         <div className="image-container">
           <div className="top">
-            <img src={profreact} className="img" alt="true" />
+            <img src={react2} className="img" alt="true" />
           </div>
           <div className="bottom">
-            <img src={prof3} className="img" alt="true" />
+            <img src={react1} className="img" alt="true" />
           </div>
         </div>
       </div>
